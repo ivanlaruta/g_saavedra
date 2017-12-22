@@ -58,12 +58,12 @@
                         <h4>Actividades</h4>
                         @if($agenda->param_estado->codigo < 3 )
                           @if($agenda->progreso <100)
-                          <a data-toggle="modal" href="#myModal" class="btn btn-success btn-round pull-right "><i class="fa fa-plus"></i>
+                          <a data-toggle="modal" href="#myModal" class="btn btn-success btn-round pull-right "><i class="fa fa-plus"></i> </a>
                           @else
-                          <a class="btn btn-success btn-round pull-right info" data-toggle="tooltip" data-placement="top" title="" data-original-title="Ya tiene 100 % de progreso, no se puede crear mas actividades "><i class="fa fa-plus"></i>
+                          <a class="btn btn-success btn-round pull-right info" data-toggle="tooltip" data-placement="top" title="" data-original-title="Ya tiene 100 % de progreso, no se puede crear mas actividades "><i class="fa fa-plus"></i> </a>
                           @endif
                         @endif
-                        </a>
+                       
                         <hr>
                         <ul class="messages">
                         @if ($agenda->lista_actividades->count() > 0)

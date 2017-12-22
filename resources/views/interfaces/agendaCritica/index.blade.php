@@ -19,7 +19,7 @@
           <div class="x_title">
             <h2>Actividades</h2>
             <ul class="nav navbar-right panel_toolbox">
-              <li><a href="#" class="green btn_nuevo" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar nuevo"><i class="fa fa-plus fa-lg green animated tada infinite"></i></a>
+              {{-- <li><a href="#" class="green btn_nuevo" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar nuevo"><i class="fa fa-plus fa-lg green animated tada infinite"></i></a> --}}
               </li>
               
               <li><a>|</a>
@@ -38,6 +38,8 @@
               <li><a class="close-link"><i class="fa fa-close"></i></a>
               </li>
             </ul>
+            
+             <a href="#" class="btn btn-success btn-round btn_nuevo pull-right " data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar nuevo"><i class="fa fa-plus"></i> </a>
             <div class="clearfix"></div>
           </div>
           <div class="x_content">

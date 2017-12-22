@@ -15,6 +15,7 @@
       </div>
     </div>
     <div class="form-horizontal form-label-left">
+      <div class="row col-md-12">
       <div class="col-md-4 col-sm-4 col-xs-12">
         <div class="form-group">
           <label>Area(s):</label>
@@ -45,6 +46,7 @@
           </select>
         </div>
       </div>
+      </div>
       <div class="col-md-4 col-sm-4 col-xs-12">
         <div class="form-group">
           <label>Plazo:</label>
@@ -68,7 +70,7 @@
       <div class="col-md-4 col-sm-4 col-xs-12">
         <div class="form-group">
           <label>Estado:</label>
-          <select class="form-control select2" name="estado" id="estado" data-width="100%">
+          <select class="form-control select2" name="estado" id="estado" data-width="100%" disabled="">
           @foreach($estado as $det)
             <option value={{$det->id}}> {{$det->nombre}}</option>
           @endforeach

@@ -1,7 +1,7 @@
 
 <footer>
   <div class="pull-right">
-    TOYOSA SA - Sistema de Inventarios Regionalizados
+    SIGC 
   </div>
   <div class="clearfix"></div>
 </footer>

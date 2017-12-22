@@ -60,6 +60,29 @@
                       <li><a>Auditoria  </a></li>
                     </ul>
                   </li>
+
+                  
+                  <li><a><i class="fa fa-cog"></i> Administracion <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a>Personas<span class="fa fa-chevron-down"></span></a>
+                          <ul class="nav child_menu">
+                            <li><a href="#">Usuarios</a>
+                            </li>
+                            <li><a href="#">Gerentes</a>
+                            </li>
+                            <li><a href="#">Accionistas</a>
+                            </li>
+                            <li><a href="#">Responsables</a>
+                            </li>
+                            <li><a href="#">Personas</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li><a href="#level1_2">parametrica</a>
+                        </li>
+                    </ul>
+                  </li>    
+
                 </ul>
               </div>
             </div>

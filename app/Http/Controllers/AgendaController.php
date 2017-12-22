@@ -91,7 +91,7 @@ class AgendaController extends Controller
         $add_agenda -> plazo = $request->plazo;
         $add_agenda -> criticidad = $request->criticidad;
         $add_agenda -> contingencia = $request->contingencia;
-        $add_agenda -> estado = $request->estado;
+        $add_agenda -> estado = 11;
         $add_agenda -> created_by = Auth::user()->id;
         
         $add_agenda -> progreso = '0';
